@@ -9,10 +9,10 @@ build:
   build_file: pom.xml
   output_files: application/target/*.war
   image_template: tomee7-v2
-  image_name: myco/petstore
+  image_name: alpha/petstore
 
 deploy:
-  context: myco/DEV
+  context: alpha/DEV
   replicas: 1
   port:
   - 8080
@@ -23,6 +23,7 @@ monitor:
 properties:
   revision : 34
   petstore_title : Hello Petstore 
+  SITE_URL: "https://petstore.appzprod.com"
   DB_URL: jdbc:mysql://mysql-5-7:3306/petstore
   DB_USER: petstore
   DB_PASSWORD:
