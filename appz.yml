@@ -24,7 +24,7 @@ properties:
   revision : 35
   petstore_title : Hello Petstore 
   SITE_URL: "https://petstore.appzprod.com"
-  DB_URL: jdbc:mysql://mysql-5-7:3306/petstore
+  DB_URL: jdbc:mysql://mysql:3306/petstore
   DB_USER: petstore
   DB_PASSWORD:
     vault: DB_PASSWORD
