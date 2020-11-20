@@ -16,15 +16,13 @@ deploy:
   replicas: 1
   port:
   - 8080
-  - 80
 
 monitor:
   notify: appzops@cloudbourne.co      
 
 properties:
   revision : 35
-  petstore_title : Hello Petstore Demo - 10152020
-  SITE_URL: "https://petstore.appzprod.com"
+  petstore_title : Hello Petstore Demo
   DB_URL: jdbc:mysql://mariadb-master-10-4:3306/petstore
   DB_USER: petstore
   DB_PASSWORD:
