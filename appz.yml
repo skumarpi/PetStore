@@ -22,7 +22,7 @@ monitor:
   notify: appzops@cloudbourne.co      
 
 properties:
-  revision : 35
+  revision : 36
   petstore_title : Hello Petstore Demo
   DB_URL: jdbc:mysql://mariadb-master-10-4:3306/petstore
   DB_USER: petstore
